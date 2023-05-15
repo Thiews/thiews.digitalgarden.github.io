@@ -387,7 +387,7 @@ img{max-width:100%;height:auto
     width:95% !important;
     margin-left:2.5%;
     margin-right: 2.5%;
-    height:60vh;
+    height:70vh;
     overflow: scroll;
     position:fixed;
     top:35px;
@@ -470,11 +470,19 @@ li.close-menu a{
 
 @media(max-width:900px){.close-menu span{
     position: relative;
-    color:#333;
-    margin-left:17px;
+    color:#FFF;
+    margin-left:15px;
     font-weight: 200;
-    font-size: 22px;
+    font-size: 14px;
     top: 15px;
+}}
+
+.close-menu{
+opacity:0
+}
+
+@media(max-width:900px){.menu:hover .close-menu{
+opacity:1
 }}
 
 @media(min-width:901px){.close-menu
