@@ -477,7 +477,7 @@ li.close-menu a{
     top: 15px;
 }}
 
-.close-menu{
+@media(min-width:901px){.close-menu{
 opacity:0
 }
 
