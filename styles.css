@@ -387,6 +387,7 @@ img{max-width:100%;height:auto
     width:100vw !important;
     margin-left:-55px;
     height:60vh;
+    overflow:scroll;
 }}
 
 @media(min-width: 901px){
