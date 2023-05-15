@@ -385,9 +385,9 @@ img{max-width:100%;height:auto
 .menu ul li ul:focus,
 .menu ul li ul:active {
     width:100vw !important;
-    margin-left:-55px;
-    height:60vh;
+    height:50vh;
     overflow:scroll;
+    position:fixed;
 }}
 
 @media(min-width: 901px){
