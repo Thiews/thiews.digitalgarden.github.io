@@ -482,7 +482,7 @@ li.close-menu a{
 opacity:0
 }}
 
-@media(max-width:900px){.menu:hover .close-menu{
+@media(max-width:900px){.menu:active .close-menu{
 opacity:1
 }}
 
