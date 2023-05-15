@@ -383,16 +383,16 @@ img{max-width:100%;height:auto
 .menu ul li:focus-within > ul,
 .menu ul li ul:hover,
 .menu ul li ul:focus,
-.menu ul li ul:active{
+.menu ul li ul:active {
     width:100vw !important;
-    margin-left:-55px;
+    height:50vh;
+    overflow:scroll;
+    position:fixed;
 }}
 
 @media(min-width: 901px){
     .menu ul li:hover > ul,
-.menu ul li:focus-within > ul,
-.menu ul li ul:hover,
-.menu ul li ul:focus {
+.menu ul li ul:hover {
     width:250px;
 }}
 
@@ -428,6 +428,29 @@ img{max-width:100%;height:auto
 .menu a:hover{
     color:var(--main-color) !important;
     transition: 0.2s;
+}
+
+li.close-menu{
+    margin-top:-54px;
+    border-bottom:none !important;
+}
+
+li.close-menu a{
+    position:relative;
+    font-weight:400;
+    top:55px; 
+}
+
+@media(max-width:900px){
+    li.close-menu a{
+        left:calc(100vw - 40px)
+    }
+}
+
+@media(min-width:901px){
+    li.close-menu a{
+        left:180px
+    }
 }
 
 .top {
