@@ -478,12 +478,17 @@ li.close-menu a{
     top: 15px;
 }}
 
+
 @media(min-width:901px){.close-menu{
 opacity:0
 }}
 
 @media(max-width:900px){.menu:active .close-menu{
 opacity:1
+}}
+
+@media(max-width:900px){.menu:visited .close-menu{
+//opacity:0
 }}
 
 @media(min-width:901px){.close-menu
