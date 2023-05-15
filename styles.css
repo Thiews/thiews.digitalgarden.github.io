@@ -382,7 +382,8 @@ img{max-width:100%;height:auto
     .menu ul li:hover > ul,
 .menu ul li:focus-within > ul,
 .menu ul li ul:hover,
-.menu ul li ul:focus {
+.menu ul li ul:focus,
+.menu ul li ul:active{
     width:100vw !important;
     margin-left:-55px;
 }}
