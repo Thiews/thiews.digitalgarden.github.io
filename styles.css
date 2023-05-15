@@ -461,7 +461,7 @@ img{max-width:100%;height:auto
 }
 
 .backlinks{
-    background:rgba(11, 83, 148,0.05);
+    background:hsla(var(--main-h),var(--main-s),var(--main-l),0.05);
     margin-top:20px;
     border-radius:10px ;
     padding:20px 5px 20px 40px;
