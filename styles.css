@@ -441,7 +441,7 @@ li.close-menu a{
 
 @media(max-width:900px){
     li.close-menu a{
-        left:calc(100vw - 15%)
+        left:calc(100vw - 40px)
     }
 }
 
