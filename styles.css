@@ -384,12 +384,13 @@ img{max-width:100%;height:auto
 .menu ul li ul:hover,
 .menu ul li ul:focus,
 .menu ul li ul:active {
-    width:80vw !important;
-    height:50vh;
-    margin-left:auto !important;
-    margin-right:auto !important;
-    overflow:scroll;
+    width:95% !important;
+    margin-left:2.5%;
+    margin-right: 2.5%;
+    height:60vh;
+    overflow: scroll;
     position:fixed;
+    top:35px;
 }}
 
 @media(min-width: 901px){
