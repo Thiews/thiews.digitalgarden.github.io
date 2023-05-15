@@ -433,29 +433,6 @@ img{max-width:100%;height:auto
     transition: 0.2s;
 }
 
-li.close-menu{
-    margin-top:-54px;
-    border-bottom:none !important;
-}
-
-li.close-menu a{
-    position:relative;
-    font-weight:400;
-    top:55px; 
-}
-
-@media(max-width:900px){
-    li.close-menu a{
-        left:calc(100vw - 60px)
-    }
-}
-
-@media(min-width:901px){
-    li.close-menu a{
-        left:180px
-    }
-}
-
 @media(max-width:900px){.close-menu{
     //background:#f4f4f4 !important;
     background:#111 !important;
